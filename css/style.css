@@ -266,7 +266,7 @@ div#preloader {
   left: 0;
   width: 100%;
   height: auto;
-  background: rgba(0, 0, 0, 0.40);
+  background: rgba(0, 0, 0, 0);
   z-index: 9;
 }
 
@@ -283,12 +283,12 @@ div#preloader {
 
 .main-menu ul.navbar-nav li a {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #fff;
-  font-size: 15px;
+  color: #929292;
+  font-size: 14px;
   font-weight: 500;
   padding: 24px 0px;
   text-transform: capitalize;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
 }
 
 .main-menu ul.navbar-nav li.active a::after {
@@ -302,21 +302,21 @@ div#preloader {
 
 .main-menu ul.navbar-nav li.active a:hover {
   background: none;
-  color: #fff;
+  color: #9bd6db;
 }
 
 .main-menu ul.navbar-nav li.active a:focus {
-  color: #fff;
+  color: #9bd6db;
 }
 
 .main-menu ul.navbar-nav li.active a {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #fff;
+  color: #9bd6db;
   position: relative;
 }
 
 .main-menu ul.navbar-nav li a:hover {
-  color: #3EC1D5;
+  color: #9bd6db;
 }
 
 .navbar {
@@ -377,7 +377,7 @@ div#preloader {
 /*--------------------------------*/
 
 .header-area.stick {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(238, 238, 238, 0.9);
   height: 70px;
   position: fixed;
   top: 0;
@@ -2349,7 +2349,7 @@ span.email-notes {
 
 .brand_link a{
   display: inline-block;
-  border: 1px solid #3EC1D5;
+  border: 1px solid #cccccc;
   border-radius: 30px;
   padding: 6px 20px;
 }
