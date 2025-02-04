@@ -86,7 +86,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif;
   margin: 0 0 15px;
-  color: #444;
+  color: #555555;
   font-weight: 500;
 }
 
@@ -101,7 +101,7 @@ h2 {
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 25px;
   line-height: 32px;
 }
 
@@ -148,11 +148,11 @@ body {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #3EC1D5;
-  color: #fff;
+  background: #a59081;
+  color: #ffffff;
   padding: 6px 12px 9px 12px;
-  font-size: 16px;
-  border-radius: 2px;
+  font-size: 15px;
+  border-radius: 3px;
   right: 15px;
   bottom: 15px;
   transition: background 0.5s;
@@ -165,13 +165,13 @@ body {
 }
 
 .back-to-top:focus {
-  background: #3EC1D5;
+  background: #b1a094;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #3cd6ed;
+  background: #b1a094;
   color: #fff;
 }
 
@@ -225,7 +225,7 @@ div#preloader {
 
 .section-headline h2 {
   display: inline-block;
-  font-size: 34px;
+  font-size: 32px;
   font-weight: 600;
   margin-bottom: 70px;
   position: relative;
@@ -233,7 +233,7 @@ div#preloader {
 }
 
 .section-headline h2::after {
-  border: 1px solid #333;
+  border: 1px solid #555;
   bottom: -20px;
   content: "";
   left: 0;
@@ -350,7 +350,7 @@ div#preloader {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff;
+  background-color: #ccc;
   width: 30px;
   height: 2px;
 }
@@ -411,7 +411,7 @@ div#preloader {
   color: #3ec1d5;
 }
 .stick .main-menu ul.navbar-nav li.active a::after {
-  border: 1px solid #fff;
+  border: 1px solid #92c8cd;
   bottom: 0px;
   content: "";
   left: 0;
@@ -420,12 +420,12 @@ div#preloader {
 }
 
 .stick .main-menu ul.nav>li>a:hover {
-  color: #fff;
+  color: #bababa;
 }
 
 .stick .main-menu ul.navbar-nav li.active a {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #fff;
+  color: #92c8cd;
   position: relative;
 }
 
@@ -470,7 +470,7 @@ div#preloader {
 --------------------------------*/
 
 .about-area {
-  background-color: #f9f9f9;
+  background-color: #fff;
 }
 
 .single-well>a {
@@ -491,6 +491,44 @@ div#preloader {
 
 .single-well p {
   color: #444;
+}
+
+.about_span span{
+  display: inline-block;
+  margin-right: 10px;
+  color: #73a9ae;
+  font-weight: 600;
+}
+
+.my_story span{
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.my_story strong{
+  font-weight: 600;
+  color: #9c9c9c;
+  display: inline-block;
+}
+
+/* brand */
+.explain{
+  color: #7e7e7e;
+  padding-bottom: 20px;
+}
+
+.brand_cover{
+  width: 100%;
+  overflow: hidden;
+}
+
+.brand_cover img{
+  display: block;
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+.brand_cover img:hover{
+  transform: scale(1.03);
 }
 
 /*--------------------------------*/
@@ -547,7 +585,7 @@ div#preloader {
 }
 
 .our-skill-area {
-  background: #c7b4a0 no-repeat fixed center top / cover;
+  background: #c9b6a4 no-repeat fixed center top / cover;
 }
 
 .test-overly {
